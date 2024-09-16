@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+  font-family: myFirstFont;
+  src: url(./assets/Norse-Bold.otf);
+}
+body {
+  font-family: system-ui, myFirstFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  background-color: black;
+}
+
+input {
+  display: block;
+  border: 1px solid rgb(196, 193, 193);
+  border-radius: 0.7rem;
+  width: clamp(10em, 17em, 100%);
+  padding-left: 0.4rem;
+}/*# sourceMappingURL=main.css.map */
