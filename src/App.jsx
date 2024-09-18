@@ -49,7 +49,7 @@ function App() {
 ]
   return (
     <div className="grid grid-cols-6 min-h-dvh text-[#636B61] bg-[#E3D7FF] ">
-      <nav className="bg-[#880e0e] z-10 fixed h-dvh sm:w-1/6 bg-[url('src/assets/images/red-scaletbg.jpg')] text-[#E3D7FF] col-[1] sm:pl-3 pt-3 flex flex-col gap-8">
+      <nav className="bg-[#880e0e] z-10 fixed h-dvh sm:w-1/6  text-[#E3D7FF] col-[1] sm:pl-3 pt-3 flex flex-col gap-8">
         <h1 className='flex justify-center sm:justify-start items-center'>
             <svg xmlns="http://www.w3.org/2000/svg" width="1.7em" height="1.7em" viewBox="0 0 24 24">
               <rect width="24" height="24" fill="none" />

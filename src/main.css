@@ -10,6 +10,10 @@ body {
   background-color: black;
 }
 
+nav {
+  background-image: url("./assets/images/red-scaletbg.jpg");
+}
+
 input {
   display: block;
   border: 1px solid rgb(196, 193, 193);
