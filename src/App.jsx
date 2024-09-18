@@ -59,7 +59,7 @@ function App() {
         </h1>
         <ul className='flex flex-col gap-3'>
            {navLists[0].map(list=>(
-            <li key={list.id} className=' hover:text-[#e3d7ff9f] cursor-pointer flex justify-center sm:justify-start items-center'>
+            <li key={list.id} className='flex justify-center sm:justify-start items-center'>
               <img className='w-5' src={list.source}/>
               <span className='text-[clamp(8px,1.5vw,0.9em)] font-semibold ml-2 sm:block hidden'>{list.name}</span>
             </li>
@@ -67,7 +67,7 @@ function App() {
         </ul>
         <ul className='flex flex-col gap-3'>
             {navLists[1].map(list=>(
-                <li key={list.id} className='flex hover:text-[#e3d7ff9f] cursor-pointer justify-center sm:justify-start items-center'>
+                <li key={list.id} className='flex justify-center sm:justify-start items-center'>
                   <img className='w-5' src={list.source}/>
                   <span className='text-[clamp(8px,1.5vw,0.9em)] font-semibold ml-2 sm:block hidden'>{list.name}</span>
                 </li>
@@ -96,9 +96,9 @@ function App() {
                 </div>
               </div>
               <div className='flex gap-2'>
-                 <button className='border hover:text-black hover:bg-[#e3d7ff9f] cursor-pointer bg-[#4d0808] text-[min(13px,2vw)] text-white rounded-full py-[0.15rem] px-[min(2em,3vw)]'>New</button>
-                 <button className='border  hover:text-black hover:bg-[#e3d7ff9f] cursor-pointer bg-[#4d0808] text-[min(13px,2vw)] text-white rounded-full py-[0.15rem] px-[min(2em,3vw)]'>Upload</button>
-                 <button className='border  hover:text-black hover:bg-[#e3d7ff9f] cursor-pointer bg-[#4d0808] text-[min(13px,2vw)] text-white rounded-full py-[0.15rem] px-[min(2em,3vw)]'>Share</button>
+                 <button className='border bg-[#4d0808] text-[min(13px,2vw)] text-white rounded-full py-[0.15rem] px-[min(2em,3vw)]'>New</button>
+                 <button className='border bg-[#4d0808] text-[min(13px,2vw)] text-white rounded-full py-[0.15rem] px-[min(2em,3vw)]'>Upload</button>
+                 <button className='border bg-[#4d0808] text-[min(13px,2vw)] text-white rounded-full py-[0.15rem] px-[min(2em,3vw)]'>Share</button>
               </div>
           </article>
        </header>
@@ -121,7 +121,7 @@ function App() {
           </article>
           <aside className='col-[1/11] xs:col-[6/11] lg:col-[8/11]'>
                <h2 className='text-[clamp(15px,3vw,1.2em)] font-semibold'>Announcements</h2>
-               <div className='bg-white p-7 mt-1 rounded-lg'>
+               <div className='bg-white p-5 mt-1 rounded-lg'>
                   <div>
                     <h4 className='text-[clamp(12px,1vw,1.1em)] font-medium'>Site Maintenance</h4>
                     <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore...</p>
@@ -138,7 +138,7 @@ function App() {
                   </div>
                </div>
                <h2 className='text-[clamp(15px,3vw,1.2em)] mt-6 font-semibold'>Trending</h2>
-               <div className='bg-white p-7 mt-1 rounded-lg'>
+               <div className='bg-white p-4 mt-1 rounded-lg'>
                  {
                   userList.map(user=>(
                     <div key={user.id} className='flex gap-2 py-2'>
